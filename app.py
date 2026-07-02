@@ -14,7 +14,7 @@ def home():
 @app.route('/api/books', methods=['GET'])
 def get_books():
     books = [
-        {"id": 1, "title": "Python Basics", "author": "John Doe"},
+        {"id": 1, "title": "Python Basics", "author": "John Leo"},
         {"id": 2, "title": "Flask for Beginners", "author": "Jane Smith"}
     ]
     return jsonify(books)
